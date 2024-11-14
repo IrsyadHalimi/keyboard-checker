@@ -1,3 +1,38 @@
+
+# How to? 
+
+
+
+
+```bash 
+ install this project on your computer
+```
+    
+### Make sure you have PHP version >= 5.x.x installed on your computer.
+
+### You also need to have Git installed.
+
+### Ensure you are using Composer version >= 1.x.
+
+Clone the repo into a spesific directory
+
+```bash
+git clone https://github.com/IrsyadHalimi/keyboard-checker.git
+```
+
+Navigate to the project directory and run Composer to install dependencies
+
+```bash
+composer update
+```
+
+And finally start the server
+```bash
+php artisan serve
+```
+
+The UI on this website uses the same template as the Laravel 5 welcome page.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
